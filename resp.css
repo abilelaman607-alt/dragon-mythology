@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+  .gr {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .hr {
+    padding: 40px 15px;
+  }
+  h1 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 480px) {
+  .gr {
+    grid-template-columns: 1fr;
+  }
+  .bd {
+    display: none;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  .hr {
+    padding: 30px 10px;
+  }
+}
