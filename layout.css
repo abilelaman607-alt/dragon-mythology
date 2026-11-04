@@ -1,0 +1,83 @@
+/* ---------- Hero Section (Index Page) ---------- */
+.hr {
+  position: relative;
+  background: #eaeaea;
+  padding: 60px 20px;
+  text-align: center;
+}
+.bd {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #b8860b;
+  color: #fff;
+  padding: 5px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* ---------- Flexbox Layout ---------- */
+.fx {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.cd {
+  flex: 1 1 280px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 15px;
+  background: #fafafa;
+}
+
+/* ---------- CSS Grid (Gallery) ---------- */
+.gr {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+.gr img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* ---------- About Page Image ---------- */
+.ab {
+  max-width: 100%;
+  width: 380px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* ---------- Back to Top Button ---------- */
+.up {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #b8860b;
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+/* ---------- Dark Mode (Endterm Requirement) ---------- */
+.dark-mode {
+  background-color: #222 !important;
+  color: #fff !important;
+}
+.dark-mode .cd {
+  background: #333 !important;
+  color: #fff !important;
+  border-color: #555 !important;
+}
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3 {
+  color: #ffd166 !important;
+}
