@@ -1,5 +1,3 @@
-// This is the main JS file. All pages use this file.
-// It works on gallery.html, contact.html and theme on all pages.
 
 //  gallery.html
 // ---------- Task 1: Arrays & Variables ----------
