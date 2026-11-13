@@ -1,20 +1,22 @@
-# Драконы в мифологии
+# 🐉 Dragons — Educational Project
 
-Ссылка на сайт: https://ваш-логин.github.io/имя-репозитория/
+A multi-page website about dragons in world mythology, built with HTML5, CSS3, Bootstrap 5, JavaScript, and jQuery.
 
-## Новые фичи (Endterm)
+## 🔗 Links
 
-1. **Массивы и циклы**: Данные хранятся в массиве `dragonsData`, выводятся через `forEach`. Валидация email использует цикл `for`.
-2. **Функции**: 4 функции (`validateEmail`, `showError`, `renderGallery`, `addToFav`).
-3. **DOM**: Карточки создаются динамически. Смена темы меняет классы.
-4. **События**: `click` (тема, кнопки), `input` (поиск), `submit` (форма).
-5. **Валидация формы**: Своя проверка email (наличие @) и длины имени, вывод ошибок, отмена отправки через `preventDefault()`.
-6. **jQuery**: `fadeIn` для галереи, `slideToggle` для текста, событие `click` и `mouseover` с поиском родителя `.parent()`.
+- **Deployed website:** _(paste your GitHub Pages / Netlify URL here)_
+- **Source repository:** _(paste your GitHub repository URL here)_
 
-## Как проверить
+## 👥 Group Members
 
-- На странице "Галерея" введи текст в поиск (карточки фильтруются).
-- Нажми "В избранное" (счетчик увеличивается).
-- Нажми "Сменить тему" (фон становится темным).
-- Нажми "jQuery: показать факт" (текст выезжает).
-- На странице "Контакты" введи email без @ (появится ошибка).
+| Name          | Contribution                                                  |
+| ------------- | ------------------------------------------------------------- |
+| _(Student 1)_ | HTML/CSS layout, Bootstrap integration, responsive design     |
+| _(Student 2)_ | JavaScript: API integration, Dragon class, CRUD, localStorage |
+
+## 🚀 How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone <your-repo-url>
+   ```

@@ -1,22 +1,20 @@
-//  gallery.html
+// gallery
 jQuery(document).ready(function () {
-  // ---------- Task 1: Selectors & Effects ----------
+  // Show the gallery slowly (1 second) if it is on the page.
   if ($("#gallery-container").length) {
-    $("#gallery-container").fadeIn(3000);
+    $("#gallery-container").fadeIn(1000);
   }
-
-  // ---------- Task 2: Events & Effects ----------
+  // Open or close #jq-box slowly on button click.
   $("#jq-toggle").click(function () {
     $("#jq-box").slideToggle();
   });
 
-  // ---------- Task 3: Events & DOM Traversal ----------
+  // ИСПРАВЛЕНИЕ ГЛЮКА: используем mouseenter/mouseleave и $(this) вместо parent()
   $(document)
-    .on("mouseover", ".cd", function () {
-      $(this).parent().css("box-shadow", "0 0 15px rgba(184, 134, 11, 0.8)");
+    .on("mouseenter", ".cd", function () {
+      $(this).css("box-shadow", "0 0 15px rgba(184, 134, 11, 0.8)");
     })
-    .on("mouseout", ".cd", function () {
-      $(this).parent().css("box0-shadow", "none");
+    .on("mouseleave", ".cd", function () {
+      $(this).css("box-shadow", "none");
     });
 });
-3;
