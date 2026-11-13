@@ -1,4 +1,4 @@
-// ---------- Task 1: Arrays & Data (Used on: gallery.html) ----------
+// ---------- Task 1: Arrays & Data (Used on: gallery.html) ---------
 const dragonsData = [
   {
     name: "European",
