@@ -9,10 +9,10 @@ A multi-page website about dragons in world mythology, built with HTML5, CSS3, B
 
 ## 👥 Group Members
 
-| Name          | Contribution                                                  |
-| ------------- | ------------------------------------------------------------- |
-| _(Student 1)_ | HTML/CSS layout, Bootstrap integration, responsive design     |
-| _(Student 2)_ | JavaScript: API integration, Dragon class, CRUD, localStorage |
+| Name         | Contribution                                                  |
+| ------------ | ------------------------------------------------------------- |
+| Yelaman Abil | HTML/CSS layout, Bootstrap integration, responsive design     |
+|              | JavaScript: API integration, Dragon class, CRUD, localStorage |
 
 ## 🚀 How to Run Locally
 
