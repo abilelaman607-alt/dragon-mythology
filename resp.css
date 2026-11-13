@@ -1,4 +1,4 @@
-/* ---------- Media Queries (Tablet & Mobile) ---------- */
+/* ---------- Media Queries (Tablet & Mobile) --------- */
 @media (max-width: 768px) {
   .gr {
     grid-template-columns: repeat(2, 1fr);
