@@ -1,5 +1,3 @@
-// This is the main JS file. All pages use this file.
-
 // ---------- Task 1: Arrays & Data (Used on: gallery.html) ----------
 const dragonsData = [
   {
